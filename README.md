@@ -34,7 +34,7 @@
  <b>QUESTION:</b> Thank you! Here, some gold!
  <p><strong>UPDATE INHABITANT <br>SET gold = gold + 120 <br>WHERE personid = 20;</strong></p>
  <b>QUESTION:</b> Unfortunately, that's not enough gold to buy a sword. Seems like I do have to work after all. Maybe it's not a bad idea to change my name from Stranger to my real name before I will apply for a job.
- <p><strong>UPDATE INHABITANT<br>SET name = Ahmed<br>WHERE name = 'Stranger';</strong></p>
+ <p><strong>UPDATE INHABITANT<br>SET name = "Ahmed" <br>WHERE name = "Stranger" ;</strong></p>
  <b>QUESTION:</b> Since baking is one of my hobbies, why not find a baker who I can work for? 
  <p><strong>SELECT *<br>FROM INHABITANT<br>WHERE job = 'baker'<br>ORDER BY gold DESC;</strong></p>
  <p> Aha, Paul! I know him!
